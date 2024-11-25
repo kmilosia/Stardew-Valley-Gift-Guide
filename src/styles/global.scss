@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Stardew Valley';
+    src: url('/src/assets/fonts/Stardew_Valley.ttf') format('truetype'),
+         url('/src/assets/fonts/Stardew_Valley.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+};
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Stardew Valley';
+}
+
+.layout {
+    box-sizing: border-box;
+    max-width: 100vw;
+    min-height: 100vh;
+    background-image: url('../assets/background.jpg') !important; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+main{
+    box-sizing: border-box;
+    flex-grow: 1;
+}

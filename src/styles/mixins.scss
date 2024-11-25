@@ -1,0 +1,3 @@
+@mixin page-padding($x: 2rem, $y: 1rem){
+    padding: $y $x;
+}

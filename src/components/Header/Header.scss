@@ -1,0 +1,38 @@
+@import '../../styles/mixins.scss';
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 20;
+    transform: translateY(-100%);
+    transition: transform 0.5s ease-in-out;
+    @include page-padding;
+    &.show {
+        transform: translateY(0);
+        transition: transform 0.5s ease-in-out;  
+    }
+    &.hide {
+        transform: translateY(-100%);
+        transition: transform 0.2s ease-in-out;
+    }
+    a{
+        width: 10rem;
+        height: max-content;
+        .logo{
+            width: 10rem;
+            height: max-content;
+            img{
+                width: 10rem;
+                height: auto;
+            }
+        }
+    }
+    h1{
+        cursor: default;
+        color: white;
+        font-weight: 200;
+    }
+}

@@ -1,0 +1,11 @@
+@import '../../styles/mixins.scss';
+
+footer{
+    @include page-padding;
+    p{
+        color: white;
+        opacity: 0.8;
+        margin: 0;
+        text-align: end;
+    }
+}
