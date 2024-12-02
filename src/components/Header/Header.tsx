@@ -4,16 +4,21 @@ import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 
 const Header = () => {
-  const [scrollDirection, setScrollDirection] = useState<'up' | 'down' | null>(null);
+  const [showHeader, setShowHeader] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
 
   const handleScroll = () => {
     const currentScrollY = window.scrollY;
 
-    if (currentScrollY > lastScrollY) {
-      setScrollDirection('down');
-    } else if (currentScrollY < lastScrollY) {
-      setScrollDirection('up');
+    if (currentScrollY <= 0) {
+      // Show header at the very top of the page
+      setShowHeader(true);
+    } else if (currentScrollY > lastScrollY) {
+      // Scrolling down, hide header
+      setShowHeader(false);
+    } else {
+      // Scrolling up, show header
+      setShowHeader(true);
     }
 
     setLastScrollY(currentScrollY);
@@ -27,7 +32,7 @@ const Header = () => {
   }, [lastScrollY]);
 
   return (
-    <header className={scrollDirection === 'up' ? 'show' : 'hide'}>
+    <header className={showHeader ? 'visible' : 'hidden'}>
       <Link to='/'>
         <div className='logo'>
           <img src={logo} />

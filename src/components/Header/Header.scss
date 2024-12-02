@@ -7,16 +7,15 @@ header{
     display: flex;
     justify-content: space-between;
     z-index: 20;
-    transform: translateY(-100%);
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
     @include page-padding;
-    &.show {
+    &.visible {
         transform: translateY(0);
-        transition: transform 0.5s ease-in-out;  
+        opacity: 1;
     }
-    &.hide {
+    &.hidden {
         transform: translateY(-100%);
-        transition: transform 0.2s ease-in-out;
+        opacity: 0;
     }
     a{
         width: 10rem;

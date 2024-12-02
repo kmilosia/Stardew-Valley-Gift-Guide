@@ -1,0 +1,81 @@
+@import '../../styles/mixins.scss';
+
+.character-details-main{
+    @include page-padding;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    .character-info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            font-size: 3rem;
+            color: white;
+            font-weight: 300;    
+        }
+        img{
+            width: 10rem;
+            height: auto;
+        }
+    }
+    .gifts {
+        margin-top: 2rem;
+    
+        section {
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+    
+            h2 {
+                font-size: 2rem;
+                margin: 0;
+            }
+    
+            ul {
+                margin: 0;
+                list-style: none;
+                padding: 0;
+                width: 100%;
+                display: flex;
+                gap: 2rem;
+                flex-wrap: wrap;
+    
+                li {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: max-content;
+    
+                    img {
+                        width: 3rem;
+                        height: auto;
+                        transition: transform 0.2s;
+                    }
+    
+                    p {
+                        display: none; // Hide name by default
+                        font-size: 1.2rem;
+                        color: white;
+                        margin-top: 0.5rem;
+                        text-align: center;
+                    }
+    
+                    &:hover {
+                        img {
+                            transform: scale(1.1); // Optional: Add a slight zoom effect on hover
+                        }
+    
+                        p {
+                            display: block; // Show name on hover
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
