@@ -2,10 +2,15 @@
 
 footer{
     @include page-padding;
+    display: flex;
+    justify-content: space-between;
     p{
         color: white;
         opacity: 0.8;
         margin: 0;
         text-align: end;
+    }
+    a{
+        color: white;
     }
 }
