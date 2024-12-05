@@ -1,3 +1,10 @@
 @mixin page-padding($x: 2rem, $y: 1rem){
     padding: $y $x;
 }
+
+@mixin center-flex($dir: column){
+    display: flex;
+    flex-direction: $dir;
+    justify-content: center;
+    align-items: center;
+}
