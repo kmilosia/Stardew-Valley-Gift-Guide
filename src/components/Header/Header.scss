@@ -6,9 +6,13 @@ header{
     left: 0;
     display: flex;
     justify-content: space-between;
+    gap: 3rem;
     z-index: 20;
     transition: transform 0.3s ease-out, opacity 0.3s ease-out;
     @include page-padding;
+    @include screen(sm){
+        padding: 1rem;
+    }
     &.visible {
         transform: translateY(0);
         opacity: 1;
@@ -20,12 +24,17 @@ header{
     a{
         width: 10rem;
         height: max-content;
+        @include screen(sm){
+            width: 7rem;
+        }
         .logo{
-            width: 10rem;
             height: max-content;
             img{
                 width: 10rem;
                 height: auto;
+                @include screen(sm){
+                    width: 7rem;
+                }
             }
         }
     }
@@ -33,5 +42,10 @@ header{
         cursor: default;
         color: white;
         font-weight: 200;
+        text-align: end;
+        margin: 0;
+        @include screen(sm){
+            font-size: 1.6rem;
+        }
     }
 }

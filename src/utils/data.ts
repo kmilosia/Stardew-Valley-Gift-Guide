@@ -3,14 +3,14 @@ export const items = [
   { id: 1112, name: "Banana Pudding", image: "https://stardewvalleywiki.com/mediawiki/images/4/40/Banana_Pudding.png", type: 'Cooking' },
   { id: 1113, name: "Blackberry Cobbler", image: "https://stardewvalleywiki.com/mediawiki/images/7/70/Blackberry_Cobbler.png", type: 'Cooking' },
   { id: 1114, name: "Chocolate Cake", image: "https://stardewvalleywiki.com/mediawiki/images/8/87/Chocolate_Cake.png", type: 'Cooking'  },
-  { id: 1115, name: "Monster Compendium", image: "https://stardewvalleywiki.com/mediawiki/images/1/15/Monster_Compendium.png", type: 'Book' },
+  { id: 1115, name: "Monster Compendium", image: "https://stardewvalleywiki.com/mediawiki/images/1/15/Monster_Compendium.png", type: 'Books' },
   { id: 1116, name: "Pufferfish", image: "https://stardewvalleywiki.com/mediawiki/images/b/ba/Pufferfish.png", type: 'Fishing' },
   { id: 1117, name: "Pumpkin", image: "https://stardewvalleywiki.com/mediawiki/images/6/64/Pumpkin.png", type: 'Crops' },
   { id: 1118, name: "Spicy Eel", image: "https://stardewvalleywiki.com/mediawiki/images/f/f2/Spicy_Eel.png", type: 'Cooking' },
   { id: 1119, name: "Ancient Sword", image: "https://stardewvalleywiki.com/mediawiki/images/7/76/Ancient_Sword.png", type: 'Artifacts' },
   { id: 11111, name: "Basilisk Paw", image: "https://stardewvalleywiki.com/mediawiki/images/0/02/Basilisk_Paw.png", type: 'Others' },
   { id: 11112, name: "Bone Flute", image: "https://stardewvalleywiki.com/mediawiki/images/f/fc/Bone_Flute.png", type: 'Artifacts' },
-  { id: 11113, name: "Combat Quarterly", image: "https://stardewvalleywiki.com/mediawiki/images/8/85/Combat_Quarterly.png", type: 'Book' },
+  { id: 11113, name: "Combat Quarterly", image: "https://stardewvalleywiki.com/mediawiki/images/8/85/Combat_Quarterly.png", type: 'Books' },
   { id: 11114, name: "Quartz", image: "https://stardewvalleywiki.com/mediawiki/images/c/cf/Quartz.png", type: 'Minerals' },
   { id: 11115, name: "Daffodil", image: "https://stardewvalleywiki.com/mediawiki/images/4/4b/Daffodil.png", type: 'Foraging' },
   { id: 11116, name: "Dandelion", image: "https://stardewvalleywiki.com/mediawiki/images/b/b1/Dandelion.png", type: 'Foraging' },
@@ -28,7 +28,7 @@ export const items = [
   { id: 12001, name: "Farmer's Lunch", image: "https://stardewvalleywiki.com/mediawiki/images/7/79/Farmer%27s_Lunch.png", type: 'Cooking' },
   { id: 12002, name: "Pink Cake", image: "https://stardewvalleywiki.com/mediawiki/images/3/32/Pink_Cake.png", type: 'Cooking' },
   { id: 12003, name: "Pumpkin Pie", image: "https://stardewvalleywiki.com/mediawiki/images/7/7d/Pumpkin_Pie.png", type: 'Cooking' },
-  { id: 12004, name: "Stardew Valley Almanac", image: "https://stardewvalleywiki.com/mediawiki/images/2/28/Stardew_Valley_Almanac.png", type: 'Book' },
+  { id: 12004, name: "Stardew Valley Almanac", image: "https://stardewvalleywiki.com/mediawiki/images/2/28/Stardew_Valley_Almanac.png", type: 'Books' },
   { id: 12005, name: "Complete Breakfast", image: "https://stardewvalleywiki.com/mediawiki/images/3/3d/Complete_Breakfast.png", type: 'Cooking' },
   { id: 12006, name: "Jack Be Nimble", image: "https://stardewvalleywiki.com/mediawiki/images/c/c2/Jack_Be_Nimble%2C_Jack_Be_Thick.png", type: 'Books' },
   { id: 12007, name: "Salmon Dinner", image: "https://stardewvalleywiki.com/mediawiki/images/8/8b/Salmon_Dinner.png", type: 'Cooking' },
@@ -52,7 +52,7 @@ export const items = [
   { id: 14006, name: "Rice Pudding", image: "https://stardewvalleywiki.com/mediawiki/images/e/ec/Rice_Pudding.png", type: 'Cooking' },
   { id: 14007, name: "Ice Cream", image: "https://stardewvalleywiki.com/mediawiki/images/5/5d/Ice_Cream.png", type: 'Cooking' },
   { id: 14008, name: "Bean Hotpot", image: "https://stardewvalleywiki.com/mediawiki/images/2/24/Bean_Hotpot.png", type: 'Cooking' },
-  { id: 14009, name: "Jojo Cola", image: "https://stardewvalleywiki.com/mediawiki/images/d/d5/Joja_Cola.png", type: 'Trash' },
+  { id: 14009, name: "Jojo Cola", image: "https://stardewvalleywiki.com/mediawiki/images/d/d5/Joja_Cola.png", type: 'Others' },
   { id: 15000, name: "Tigerseye", image: "https://stardewvalleywiki.com/mediawiki/images/6/6e/Tigerseye.png", type: 'Minerals' },
   { id: 15001, name: "Pizza", image: "https://stardewvalleywiki.com/mediawiki/images/f/f4/Pizza.png", type: 'Cooking' },
   { id: 15002, name: "Maple Bar", image: "https://stardewvalleywiki.com/mediawiki/images/1/18/Maple_Bar.png", type: 'Cooking' },
@@ -65,7 +65,7 @@ export const items = [
   { id: 15009, name: "Woodcutter's Weekly", image: "https://stardewvalleywiki.com/mediawiki/images/4/46/Woodcutter%27s_Weekly.png", type: 'Books' },
   { id: 15010, name: "Fried Calamari", image: "https://stardewvalleywiki.com/mediawiki/images/2/25/Fried_Calamari.png", type: 'Cooking' },
   { id: 15011, name: "Price Catalog", image: "https://stardewvalleywiki.com/mediawiki/images/d/d5/Price_Catalogue.png", type: 'Books' },
-  { id: 15012, name: "Beer", image: "https://stardewvalleywiki.com/mediawiki/images/b/b3/Beer.png", type: 'Artisan Goods' },
+  { id: 15012, name: "Beer", image: "https://stardewvalleywiki.com/mediawiki/images/b/b3/Beer.png", type: 'Artisan' },
   { id: 15013, name: "Hot Pepper", image: "https://stardewvalleywiki.com/mediawiki/images/f/f1/Hot_Pepper.png", type: 'Crops' },
   { id: 15014, name: "Pepper Poppers", image: "https://stardewvalleywiki.com/mediawiki/images/0/08/Pepper_Poppers.png", type: 'Cooking' },
   { id: 15015, name: "Strange Bun", image: "https://stardewvalleywiki.com/mediawiki/images/5/5e/Strange_Bun.png", type: 'Cooking' },
@@ -111,7 +111,7 @@ export const items = [
   { id: 16014, name: "Sturgeon", image: "https://stardewvalleywiki.com/mediawiki/images/4/42/Sturgeon.png", type: 'Fishing' },
   { id: 16015, name: "Sea Cucumber", image: "https://stardewvalleywiki.com/mediawiki/images/a/a9/Sea_Cucumber.png", type: 'Fishing' },
   { id: 16016, name: "Octopus", image: "https://stardewvalleywiki.com/mediawiki/images/5/5a/Octopus.png", type: 'Fishing' },
-  { id: 16017, name: "Mead", image: "https://stardewvalleywiki.com/mediawiki/images/8/84/Mead.png", type: 'Artisan Goods' },
+  { id: 16017, name: "Mead", image: "https://stardewvalleywiki.com/mediawiki/images/8/84/Mead.png", type: 'Artisan' },
   { id: 16018, name: "Jewels of the Sea", image: "https://stardewvalleywiki.com/mediawiki/images/7/7d/Jewels_Of_The_Sea.png", type: 'Books' },
   { id: 16019, name: "Gold Bar", image: "https://stardewvalleywiki.com/mediawiki/images/4/4e/Gold_Bar.png", type: 'Crafting' },
   { id: 16020, name: "Catfish", image: "https://stardewvalleywiki.com/mediawiki/images/9/99/Catfish.png", type: 'Fishing' },
@@ -121,7 +121,7 @@ export const items = [
   { id: 16024, name: "Ginger Ale", image: "https://stardewvalleywiki.com/mediawiki/images/1/1a/Ginger_Ale.png", type: 'Cooking' },
   { id: 16025, name: "Grape", image: "https://stardewvalleywiki.com/mediawiki/images/c/c2/Grape.png", type: 'Crops' },
   { id: 16026, name: "Snail", image: "https://stardewvalleywiki.com/mediawiki/images/d/d2/Snail.png", type: 'Fishing' },
-  { id: 16027, name: "Glazed Yams", image: "https://stardewvalleywiki.com/mediawiki/images/3/30/Glazed_Yams.png", type: 'Artisan Goods' },
+  { id: 16027, name: "Glazed Yams", image: "https://stardewvalleywiki.com/mediawiki/images/3/30/Glazed_Yams.png", type: 'Artisan' },
   { id: 16028, name: "Parsnip", image: "https://stardewvalleywiki.com/mediawiki/images/d/db/Parsnip.png", type: 'Crops' },
   { id: 16029, name: "Parsnip Soup", image: "https://stardewvalleywiki.com/mediawiki/images/7/76/Parsnip_Soup.png", type: 'Cooking' },
   { id: 16030, name: "Pina Colada", image: "https://stardewvalleywiki.com/mediawiki/images/1/12/Pi%C3%B1a_Colada.png", type: 'Cooking' },
@@ -147,7 +147,7 @@ export const items = [
   { id: 16050, name: "Autumn's Bounty", image: "https://stardewvalleywiki.com/mediawiki/images/f/f4/Autumn%27s_Bounty.png", type: 'Cooking' },
   { id: 16051, name: "Vegetable Medley", image: "https://stardewvalleywiki.com/mediawiki/images/0/0a/Vegetable_Medley.png", type: 'Cooking' },
   { id: 16052, name: "Blueberry", image: "https://stardewvalleywiki.com/mediawiki/images/9/9e/Blueberry.png", type: 'Crops' },
-  { id: 16053, name: "Driftwood", image: "https://stardewvalleywiki.com/mediawiki/images/6/63/Driftwood.png", type: 'Trash' },
+  { id: 16053, name: "Driftwood", image: "https://stardewvalleywiki.com/mediawiki/images/6/63/Driftwood.png", type: 'Others' },
   { id: 16054, name: "Wine", image: "https://stardewvalleywiki.com/mediawiki/images/6/69/Wine.png", type: 'Artisan' },
   { id: 16055, name: "Truffle", image: "https://stardewvalleywiki.com/mediawiki/images/f/f2/Truffle.png", type: 'Animal Products' },
   { id: 16056, name: "Stir Fry", image: "https://stardewvalleywiki.com/mediawiki/images/e/ed/Stir_Fry.png", type: 'Cooking' },
@@ -173,7 +173,7 @@ export const items = [
   { id: 16076, name: "Raisins", image: "https://stardewvalleywiki.com/mediawiki/images/0/06/Raisins.png", type: 'Artisan' },
   { id: 16077, name: "Stuffing", image: "https://stardewvalleywiki.com/mediawiki/images/9/9a/Stuffing.png", type: 'Cooking' },
   { id: 16078, name: "Tulip", image: "https://stardewvalleywiki.com/mediawiki/images/c/cf/Tulip.png", type: 'Crops' },
-  { id: 16079, name: "Broken Glasses", image: "https://stardewvalleywiki.com/mediawiki/images/b/b5/Broken_Glasses.png", type: 'Trash' },
+  { id: 16079, name: "Broken Glasses", image: "https://stardewvalleywiki.com/mediawiki/images/b/b5/Broken_Glasses.png", type: 'Others' },
   { id: 16080, name: "Clam", image: "https://stardewvalleywiki.com/mediawiki/images/e/ed/Clam.png", type: 'Foraging' },
   { id: 16081, name: "Cockle", image: "https://stardewvalleywiki.com/mediawiki/images/a/ad/Cockle.png", type: 'Foraging' },
   { id: 16082, name: "Coral", image: "https://stardewvalleywiki.com/mediawiki/images/b/b1/Coral.png", type: 'Foraging' },
@@ -199,7 +199,7 @@ export const items = [
   { id: 17002, name: "Gold Ore", image: "https://stardewvalleywiki.com/mediawiki/images/f/f7/Gold_Ore.png", type: 'Mining' },
   { id: 17003, name: "Iridium Ore", image: "https://stardewvalleywiki.com/mediawiki/images/e/e9/Iridium_Ore.png", type: 'Mining' },
   { id: 17004, name: "Refined Quartz", image: "https://stardewvalleywiki.com/mediawiki/images/9/98/Refined_Quartz.png", type: 'Crafting' },
-  //universal loves
+  //universal love
   { id: 17005, name: "Golden Pumpkin", image: "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png", type: 'Others' },
   { id: 17006, name: "Magic Rock Candy", image: "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png", type: 'Others' },
   { id: 17007, name: "Pearl", image: "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png", type: 'Others' },
@@ -218,6 +218,8 @@ export const items = [
   { id: 170019, name: "", image: "", type: 'Books' },
 
 ]
+
+export const itemTypes = [ 'Animal Products', 'Artisan', 'Artifacts','Books','Cooking','Crafting','Crops','Fishing','Foraging','Mining','Minerals','Monster Loot','Others']
 
 export const charactersInfo = [
   {

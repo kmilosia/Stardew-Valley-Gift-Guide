@@ -1,3 +1,20 @@
+$breakpoints: (
+  sm: 480px,
+  lg: 1024px,
+  xl: 1440px
+);
+
+@mixin screen($breakpoint) {
+    $point: map-get($breakpoints, $breakpoint);
+    @if $point {
+      @media (max-width: $point) {
+        @content;
+      }
+    } @else {
+      @error "Breakpoint '#{$breakpoint}' not found in map!";
+    }
+}
+
 @mixin page-padding($x: 2rem, $y: 1rem){
     padding: $y $x;
 }

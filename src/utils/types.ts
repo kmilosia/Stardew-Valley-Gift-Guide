@@ -8,4 +8,10 @@ export interface Item {
   id: number;
   image: string;
   name: string;
+  type: string;
 };
+
+export interface SelectOption {
+  value: string;
+  label: string;
+}

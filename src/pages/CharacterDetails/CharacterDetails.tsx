@@ -1,32 +1,74 @@
 import { useParams } from 'react-router';
-import { charactersInfo, items } from '../../utils/data';
+import { charactersInfo, items, itemTypes } from '../../utils/data';
 import './CharacterDetails.scss';
 import GiftItem from '../../components/GiftItem/GiftItem';
-import { Item } from '../../utils/types';
+import { Item, SelectOption } from '../../utils/types';
+import { useState } from 'react';
+import Select from 'react-select';
 
 const CharacterDetails = () => {
     const params = useParams<{ name: string }>();
     const characterInfo = charactersInfo.find((item) => item.name === params.name);
+    const [selectedType, setSelectedType] = useState<string>('');
+
+    const selectOptions: SelectOption[] = itemTypes.map((item) => ({
+        value: item,
+        label: item,
+    }));
+
+    const handleTypeChange = (selectedOption: SelectOption | null) => {
+        setSelectedType(selectedOption ? selectedOption.value : '');
+    };
+
+    const filterItemsByType = (items: Item[]) => {
+        if (!selectedType) return items;
+        return items.filter((item) => item.type === selectedType);
+    };
 
     // FIX ANY TYPES
-    const getItemDetails = (itemIds: any) =>
-        itemIds.map((id: any) => items.find((item: any) => item.id === id)).filter(Boolean);
+    const getItemDetails = (itemIds: number[]) =>
+        itemIds.map((id) => items.find((item) => item.id === id)).filter(Boolean);
 
     return (
-        <main className='character-details-main'>
+        <main className="character-details-main">
             {characterInfo && (
                 <>
-                    <section className='character-info'>
+                    <section className="character-info">
                         <h1>{characterInfo.name}</h1>
-                        <img src={characterInfo.avatar} alt={`${characterInfo.name}'s avatar`} />
+                        <img
+                            src={characterInfo.avatar}
+                            alt={`${characterInfo.name}'s avatar`}
+                        />
                     </section>
-
-                    <section className='gifts'>
+                    <Select
+                          styles={{
+                            control: (baseStyles, state) => ({
+                              ...baseStyles,
+                              background: 'rgba(255,255,255,0.2)',
+                              backdropFilter: 'blur(5px)',
+                              borderRadius: '0.5rem',
+                              fontSize: '1.1rem',
+                              padding: '0.3rem',
+                              cursor: 'pointer',
+                              color: 'black'
+                            }),
+                            placeholder: (baseStyles) => ({
+                                ...baseStyles,
+                                color: '#242424',
+                            }),
+                          }}
+                        className='select-type'
+                        options={selectOptions}
+                        onChange={handleTypeChange}
+                        placeholder="Choose item type"
+                        isClearable
+                    />
+                    <section className="gifts">
                         <section>
                             <h2>Loved</h2>
                             <ul>
-                                {getItemDetails(characterInfo.loved).map((item: Item) => (
-                                    <GiftItem key={item.id} item={item} />                        
+                                {filterItemsByType(getItemDetails(characterInfo.loved) as Item[]).map((item: Item) => (
+                                    <GiftItem key={item.id} item={item} />
                                 ))}
                             </ul>
                         </section>
@@ -34,7 +76,7 @@ const CharacterDetails = () => {
                         <section>
                             <h2>Liked</h2>
                             <ul>
-                                {getItemDetails(characterInfo.liked).map((item: Item) => (
+                                {filterItemsByType(getItemDetails(characterInfo.liked) as Item[]).map((item: Item) => (
                                     <GiftItem key={item.id} item={item} />
                                 ))}
                             </ul>
@@ -42,8 +84,8 @@ const CharacterDetails = () => {
                         <section>
                             <h2>Neutral</h2>
                             <ul>
-                                {getItemDetails(characterInfo.neutral).map((item: Item) => (
-                                  <GiftItem key={item.id} item={item} />
+                                {filterItemsByType(getItemDetails(characterInfo.neutral) as Item[]).map((item: Item) => (
+                                    <GiftItem key={item.id} item={item} />
                                 ))}
                             </ul>
                         </section>

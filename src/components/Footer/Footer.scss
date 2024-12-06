@@ -4,11 +4,20 @@ footer{
     @include page-padding;
     display: flex;
     justify-content: space-between;
+    @include screen(sm){
+        padding: 1rem;
+    }
     p{
         color: white;
         opacity: 0.8;
         margin: 0;
         text-align: end;
+        @include screen(sm){
+            font-size: 0.9rem;
+            &:first-of-type {
+                text-align: start;
+            }
+        }
     }
     a{
         color: white;
