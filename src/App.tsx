@@ -6,6 +6,7 @@ import CharacterDetails from './pages/CharacterDetails/CharacterDetails'
 import ScrollToTop from './ScrollToTop'
 import GiftDetails from './pages/GiftDetails/GiftDetails'
 import ScrollTopButton from './components/ScrollTopButton/ScrollTopButton'
+import PageNotFound from './pages/PageNotFound/PageNotFound'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
                 <Route path='/' element={<Home />}/>            
                 <Route path='/:name' element={<CharacterDetails />}/>            
                 <Route path='/item/:id' element={<GiftDetails />}/>            
+                <Route path='*' element={<PageNotFound />}/>            
             </Routes>
             <Footer />
             <ScrollTopButton />

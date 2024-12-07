@@ -31,7 +31,7 @@ const CharacterDetails = () => {
 
     return (
         <main className="character-details-main">
-            {characterInfo && (
+            {characterInfo ? (
                 <>
                     <section className="character-info">
                         <h1>{characterInfo.name}</h1>
@@ -91,6 +91,11 @@ const CharacterDetails = () => {
                         </section>
                     </section>
                 </>
+            ) : (
+                <section className='not-found'>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/5/5e/DialogueBubbleHate.png" aria-hidden='true'/>
+                    <h1>Character not found</h1>
+              </section>
             )}
         </main>
     );

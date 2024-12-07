@@ -9,12 +9,17 @@ const GiftDetails = () => {
 
   return (
     <main className='gift-details'>
-        {giftInfo && (
+        {giftInfo ? (
             <section>
                 <img src={giftInfo.image} alt={giftInfo.name} />
                 <h1>{giftInfo.name}</h1>
                 <p>{giftInfo.type}</p>
             </section>
+        ) : (
+          <section>
+            <img src="https://stardewvalleywiki.com/mediawiki/images/5/5e/DialogueBubbleHate.png" aria-hidden='true'/>
+            <h1>Item not found</h1>
+          </section>
         )}
     </main>
   )

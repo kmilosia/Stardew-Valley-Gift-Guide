@@ -1,0 +1,26 @@
+@import '../../styles/mixins.scss';
+
+.page-not-found{
+    width: 100%;
+    @include center-flex;
+    img{
+        width: 8rem;
+        height: auto;
+    }
+    button{
+        font-family: 'Stardew Valley';
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        gap: 0.2rem;
+        font-weight: 500;
+        cursor: pointer;
+        border: none;
+        border-bottom: 2px solid transparent;
+        background: none;
+        transition: 0.3s all ease;
+        &:hover{
+            border-bottom: 2px solid black;
+        }
+    }
+}
