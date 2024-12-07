@@ -42,7 +42,7 @@ const CharacterDetails = () => {
                     </section>
                     <Select
                           styles={{
-                            control: (baseStyles, state) => ({
+                            control: (baseStyles) => ({
                               ...baseStyles,
                               background: 'rgba(255,255,255,0.2)',
                               backdropFilter: 'blur(5px)',
@@ -56,6 +56,11 @@ const CharacterDetails = () => {
                                 ...baseStyles,
                                 color: '#242424',
                             }),
+                            menuList: (baseStyles) => ({
+                                ...baseStyles,
+                                maxHeight: '4rem',
+                                overflowY: 'auto', 
+                            }),
                           }}
                         className='select-type'
                         options={selectOptions}
@@ -64,6 +69,7 @@ const CharacterDetails = () => {
                         isClearable
                     />
                     <section className="gifts">
+                        {filterItemsByType(getItemDetails(characterInfo.loved) as Item[]).length > 0 && (
                         <section>
                             <h2>Loved</h2>
                             <ul>
@@ -71,8 +77,8 @@ const CharacterDetails = () => {
                                     <GiftItem key={item.id} item={item} />
                                 ))}
                             </ul>
-                        </section>
-
+                        </section>)}
+                        {filterItemsByType(getItemDetails(characterInfo.liked) as Item[]).length > 0 && (
                         <section>
                             <h2>Liked</h2>
                             <ul>
@@ -80,7 +86,8 @@ const CharacterDetails = () => {
                                     <GiftItem key={item.id} item={item} />
                                 ))}
                             </ul>
-                        </section>
+                        </section>)}
+                        {filterItemsByType(getItemDetails(characterInfo.neutral) as Item[]).length > 0 && (
                         <section>
                             <h2>Neutral</h2>
                             <ul>
@@ -88,7 +95,7 @@ const CharacterDetails = () => {
                                     <GiftItem key={item.id} item={item} />
                                 ))}
                             </ul>
-                        </section>
+                        </section>)}
                     </section>
                 </>
             ) : (
