@@ -47,6 +47,7 @@ const CharacterDetails = () => {
                         onChange={handleTypeChange}
                         placeholder="Choose item type"
                         isClearable
+                        isSearchable={false}
                     />
                     <section className="gifts">
                         {filterItemsByType(getItemDetails(characterInfo.loved) as Item[]).length > 0 && (
