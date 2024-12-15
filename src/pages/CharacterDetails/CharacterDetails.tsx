@@ -5,6 +5,7 @@ import GiftItem from '../../components/GiftItem/GiftItem';
 import { Item, SelectOption } from '../../utils/types';
 import { useState } from 'react';
 import Select from 'react-select';
+import { selectStyles } from '../../utils/utils';
 
 const CharacterDetails = () => {
     const params = useParams<{ name: string }>();
@@ -25,7 +26,6 @@ const CharacterDetails = () => {
         return items.filter((item) => item.type === selectedType);
     };
 
-    // FIX ANY TYPES
     const getItemDetails = (itemIds: number[]) =>
         itemIds.map((id) => items.find((item) => item.id === id)).filter(Boolean);
 
@@ -41,27 +41,7 @@ const CharacterDetails = () => {
                         />
                     </section>
                     <Select
-                          styles={{
-                            control: (baseStyles) => ({
-                              ...baseStyles,
-                              background: 'rgba(255,255,255,0.2)',
-                              backdropFilter: 'blur(5px)',
-                              borderRadius: '0.5rem',
-                              fontSize: '1.1rem',
-                              padding: '0.3rem',
-                              cursor: 'pointer',
-                              color: 'black'
-                            }),
-                            placeholder: (baseStyles) => ({
-                                ...baseStyles,
-                                color: '#242424',
-                            }),
-                            menuList: (baseStyles) => ({
-                                ...baseStyles,
-                                maxHeight: '4rem',
-                                overflowY: 'auto', 
-                            }),
-                          }}
+                        styles={selectStyles}
                         className='select-type'
                         options={selectOptions}
                         onChange={handleTypeChange}

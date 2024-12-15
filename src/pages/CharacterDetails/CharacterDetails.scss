@@ -47,14 +47,10 @@
         }
     }
     .select-type{
-        position: sticky;
-        left: 0;
-        top: 5rem;
         margin: 2rem 0 0 0;
         align-self: flex-end;
         width: 20rem;
         @include screen(sm){
-            position: static;
             width: 100%;
         }
     }

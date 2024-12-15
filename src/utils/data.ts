@@ -215,7 +215,7 @@ export const charactersInfo = [
   {
     id: 1,
     name: 'Abigail',
-    avatar: "/assets/avatars/Abigail.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/8/88/Abigail.png",
     loved: [ 1111, 1112, 1113, 1114, 1115, 1116, 1117, 1118 ],
     liked: [ 1119, 11111, 11112, 11113, 11114 ],
     neutral: [ 11115, 11116, 11117, 11118, 11119, 11181, 11182, 11183, 11184, 11185, 11186, 11187 ],
@@ -223,7 +223,7 @@ export const charactersInfo = [
   {
     id: 2,
     name: 'Alex',
-    avatar: "/assets/avatars/Alex.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/0/04/Alex.png",
     loved: [ 12005, 12006, 12007 ],
     liked: [ 13001, 12009, 12008 ],
     neutral: [ 13002, 11181, 11182, 11115, 11116, 11185, 11186, 11187, 11183, 11118, 11117, 11184, 11119 ],
@@ -231,7 +231,7 @@ export const charactersInfo = [
   {
     id: 3,
     name: 'Caroline',
-    avatar: "/assets/avatars/Caroline.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/8/87/Caroline.png",
     loved: [ 13003, 13004, 13005, 13006 ],
     liked: [ 13007, 13008, 11115 ],
     neutral: [ ],
@@ -239,7 +239,7 @@ export const charactersInfo = [
   {
     id: 4,
     name: 'Clint',
-    avatar: "/assets/avatars/Clint.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/3/31/Clint.png",
     loved: [ 1111, 16087, 16098, 16099, 15031, 16058, 16019, 13009, 16089, 16090, 16091 ],
     liked: [ 17000, 16035, 16036 ],
     neutral: [ 11181, 11182, 11115, 11116, 11185, 11186, 11187, 11183, 11118, 11117, 17001, 17002, 17003, 17004, 11184, 11119 ],
@@ -247,7 +247,7 @@ export const charactersInfo = [
   {
     id: 5,
     name: 'Demetrius',
-    avatar: "/assets/avatars/Demetrius.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/f/f9/Demetrius.png",
     loved: [ 14005, 14006, 14007, 14008 ],
     liked: [ 12008, 11117 ],
     neutral: [ 11181, 11182, 11115, 11116, 11185, 11186, 11187, 11183, 11118, 11184, 11119, 13008 ],
@@ -255,7 +255,7 @@ export const charactersInfo = [
   {
     id: 6,
     name: 'Elliott',
-    avatar: "/assets/avatars/Elliott.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/b/bd/Elliott.png",
     loved: [ 16008, 16073, 16093, 16094, 16095, 15038 ],
     liked: [ 16016, 16096 ],
     neutral: [ 16097, 16086 ],
@@ -263,7 +263,7 @@ export const charactersInfo = [
   {
     id: 7,
     name: 'Emily',
-    avatar: "/assets/avatars/Emily.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/2/28/Emily.png",
     loved: [ 16088, 16089, 16090, 16091, 16092, 1111, 13001, 15083, 16087, 15031 ],
     liked: [ 11115, 11114 ],
     neutral: [ 11181, 11182, 11116, 11185, 11186, 11187, 11183, 11118, 11117, 11184, 11119, 13008 ],
@@ -271,7 +271,7 @@ export const charactersInfo = [
   {
     id: 8,
     name: 'Evelyn',
-    avatar: "/assets/avatars/Evelyn.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/8/8e/Evelyn.png",
     loved: [ 16075, 16076, 16077, 16078, 12000, 16065, 16063 ],
     liked: [ 16079, 16080, 16081, 16082, 16083, 16084, 16085, 16086, 11115 ],
     neutral: [ 11181, 11182, 11116, 11185, 11186, 11187, 11183, 11118, 11117, 11184, 11119 ],
@@ -279,7 +279,7 @@ export const charactersInfo = [
   {
     id: 9,
     name: 'George',
-    avatar: "/assets/avatars/George.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/7/78/George.png",
     loved: [ 11183, 15088 ],
     liked: [ 11115 ],
     neutral: [ 11181, 11182, 11185, 11186, 11187, 11118, 11117, 11184, 11119 ],
@@ -287,7 +287,7 @@ export const charactersInfo = [
   {
     id: 10,
     name: 'Gus',
-    avatar: "/assets/avatars/Gus.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/5/52/Gus.png",
     loved: [ 12000, 16006, 13003, 13006, 16074 ],
     liked: [ 11115, 16055 ],
     neutral: [ 11181, 11182, 11116, 11185, 11186, 11187, 11183, 11118, 11117, 11184, 11119 ],
@@ -295,7 +295,7 @@ export const charactersInfo = [
   {
     id: 11,
     name: 'Haley',
-    avatar: "/assets/avatars/Haley.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/1/1b/Haley.png",
     loved: [ 15085, 15086, 15087, 12002 ],
     liked: [ 11115 ],
     neutral: [ ],
@@ -303,7 +303,7 @@ export const charactersInfo = [
   {
     id: 12,
     name: 'Harvey',
-    avatar: "/assets/avatars/Harvey.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/9/95/Harvey.png",
     loved: [ 16068, 16069, 16070, 16071, 16054 ],
     liked: [ 11181, 11182, 11115, 11116, 11185, 11186, 11187, 11183, 11118, 11117, 11184, 11119, 16046, 16045, 11114, 15082, 16072, 16073, 13008 ],
     neutral: [ 15084 ],
@@ -311,7 +311,7 @@ export const charactersInfo = [
   {
     id: 13,
     name: 'Jas',
-    avatar: "/assets/avatars/Jas.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/5/55/Jas.png",
     loved: [ 16067, 16066, 16065, 16064, 12002 ],
     liked: [ 15087, 11115 ],
     neutral: [ ],
@@ -319,7 +319,7 @@ export const charactersInfo = [
   {
     id: 14,
     name: 'Jodi',
-    avatar: "/assets/avatars/Jodi.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/4/41/Jodi.png",
     loved: [ 16061, 16007, 12000, 16062, 16061, 16004, 16037, 16051, 16063 ],
     liked: [  ],
     neutral: [ ],
@@ -327,7 +327,7 @@ export const charactersInfo = [
   {
     id: 15,
     name: 'Kent',
-    avatar: "/assets/avatars/Kent.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/9/99/Kent.png",
     loved: [ 16058, 16059 ],
     liked: [ 16060, 11115 ],
     neutral: [ 11181, 11182, 11116, 11185, 11186, 11187, 11183, 11118, 11117, 13008, 11119 ],
@@ -335,7 +335,7 @@ export const charactersInfo = [
   {
     id: 17,
     name: 'Leah',
-    avatar: "/assets/avatars/Leah.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/e/e6/Leah.png",
     loved: [ 16054, 16055, 16056, 16057, 15004, 15034, 16051 ],
     liked: [ 11181, 11182, 11115, 11116, 11185, 11186, 11187, 11183, 11118, 11117, 11184, 11119, 16053, 16046, 13008, 16045 ],
     neutral: [  ],
@@ -343,7 +343,7 @@ export const charactersInfo = [
   {
     id: 18,
     name: 'Lewis',
-    avatar: "/assets/avatars/Lewis.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/2/2b/Lewis.png",
     loved: [ 16050, 16027, 13004, 15013, 16051 ],
     liked: [ 16052, 15003, 15087 ],
     neutral: [ 11181, 11182, 11115, 11116, 11185, 11186, 11187, 11183, 11118, 11117, 11184, 11119 ],
@@ -351,7 +351,7 @@ export const charactersInfo = [
   {
     id: 19,
     name: 'Linus',
-    avatar: "/assets/avatars/Linus.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/3/31/Linus.png",
     loved: [ 16047, 16048, 16049, 15003, 15087, 16021 ],
     liked: [ 16045, 16046, 11181, 11182, 11115, 11116, 11185, 11186, 11187, 11183, 11118, 11117, 11184, 11119, 13008 ],
     neutral: [ 16044 ],
@@ -359,7 +359,7 @@ export const charactersInfo = [
   {
     id: 20,
     name: 'Marnie',
-    avatar: "/assets/avatars/Marnie.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/5/52/Marnie.png",
     loved: [ 12000, 12001, 12002, 12003 ],
     liked: [ 12004, 11114 ],
     neutral: [ 11181, 11182, 11115, 11116, 11185, 11186, 11187, 11183, 11118, 11117, 11184, 11119 ],
@@ -367,7 +367,7 @@ export const charactersInfo = [
   {
     id: 21,
     name: 'Maru',
-    avatar: "/assets/avatars/Maru.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/f/f8/Maru.png",
     loved: [ 16041, 16042, 16043, 12000, 16040, 16019, 13009, 16039, 15014, 16038, 16037, 14005 ],
     liked: [ 11181, 16035, 16036, 11187, 11118, 16033, 16034, 16035, 11117, 11114, 16032 ],
     neutral: [ 11115, 11116, 11185, 11186, 11183, 11119, 13008 ],
@@ -375,7 +375,7 @@ export const charactersInfo = [
   {
     id: 22,
     name: 'Pam',
-    avatar: "/assets/avatars/Pam.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/d/da/Pam.png",
     loved: [ 16027, 16028, 16029, 16030, 16031, 16017, 15012, 15003 ],
     liked: [ 11115 ],
     neutral: [ 11181, 11182, 11116, 11185, 11186, 11187, 11183, 11118, 11117, 11184, 11119, 14009 ],
@@ -383,7 +383,7 @@ export const charactersInfo = [
   {
     id: 23,
     name: 'Penny',
-    avatar: "/assets/avatars/Penny.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/a/ab/Penny.png",
     loved: [ 12000, 15031, 15032, 15033, 15034, 15035, 15036, 15037, 15038 ],
     liked: [ 11116, 11183 ],
     neutral: [ 11181, 11182, 11115, 11185, 11186, 11187, 11118, 11184, 11119, 13008 ],
@@ -391,7 +391,7 @@ export const charactersInfo = [
   {
     id: 24,
     name: 'Pierre',
-    avatar: "/assets/avatars/Pierre.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/7/7e/Pierre.png",
     loved: [ 15010, 15011 ],
     liked: [ 11115, 11116 ],
     neutral: [ ],
@@ -399,7 +399,7 @@ export const charactersInfo = [
   {
     id: 25,
     name: 'Robin',
-    avatar: "/assets/avatars/Robin.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/1/1b/Robin.png",
     loved: [ 15004, 15005, 15006, 15007 ],
     liked: [ 15008, 15009, 11114 ],
     neutral: [ 11181, 11182, 11115, 11116, 11185, 11186, 11187, 11183, 11118, 11117, 11184, 11119 ],
@@ -407,7 +407,7 @@ export const charactersInfo = [
   {
     id: 26,
     name: 'Sam',
-    avatar: "/assets/avatars/Sam.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/9/94/Sam.png",
     loved: [ 15000, 15001, 15002, 15003 ],
     liked: [ 14009 ],
     neutral: [ ],
@@ -415,7 +415,7 @@ export const charactersInfo = [
   {
     id: 27,
     name: 'Sandy',
-    avatar: "/assets/avatars/Sandy.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/4/4e/Sandy.png",
     loved: [ 15039, 15080, 15081, 11115 ],
     liked: [ 15082, 15083, 11114 ],
     neutral: [ 15084, 11181, 11182, 11185, 11186, 11187, 11118, 11117, 11184, 11119, 13008, 11183, 11116 ],
@@ -423,7 +423,7 @@ export const charactersInfo = [
   {
     id: 28,
     name: 'Sebastian',
-    avatar: "/assets/avatars/Sebastian.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/a/a8/Sebastian.png",
     loved: [ 13002, 15017, 15018, 15019, 15030, 150311 ],
     liked: [ 15016,11113, 11114, 1115 ],
     neutral: [ ],
@@ -431,7 +431,7 @@ export const charactersInfo = [
   {
     id: 29,
     name: 'Shane',
-    avatar: "/assets/avatars/Shane.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/8/8b/Shane.png",
     loved: [ 15012, 15013, 15014, 15001 ],
     liked: [  ],
     neutral: [ 15015 ],
@@ -439,7 +439,7 @@ export const charactersInfo = [
   {
     id: 30,
     name: 'Vincent',
-    avatar: "/assets/avatars/Vincent.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/f/f1/Vincent.png",
     loved: [ 16023, 16024, 16025, 16026, 13002, 12002 ],
     liked: [ 11115, 15087 ],
     neutral: [ ],
@@ -447,7 +447,7 @@ export const charactersInfo = [
   {
     id: 31,
     name: 'Willy',
-    avatar: "/assets/avatars/Willy.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/8/82/Willy.png",
     loved: [ 16013, 16014, 16015, 16016, 16017, 16018, 16019, 16020, 12000, 13009, 1117],
     liked: [ 15089, 16000, 16001, 12007, 11114, 16002, 16003, 16004, 15010, 13003, 16005, 16006, 16007, 16008, 16009, 16010, 16011, 16012 ],
     neutral: [16021, 16022, 15018 ],
@@ -455,7 +455,7 @@ export const charactersInfo = [
   {
     id: 32,
     name: 'Wizard',
-    avatar: "/assets/avatars/Wizard.png",
+    avatar: "https://stardewvalleywiki.com/mediawiki/images/c/c7/Wizar.png",
     loved: [ 14000, 14001, 14002, 14003, 11117 ],
     liked: [ 13009, 11114 ],
     neutral: [ ],
@@ -465,35 +465,35 @@ export const charactersInfo = [
 
 
 export const characters = [
-    { id: 1, name: "Abigail", avatar: "/assets/avatars/Abigail.png" },
-    { id: 2, name: "Alex", avatar: "/assets/avatars/Alex.png" },
-    { id: 3, name: "Caroline", avatar: "/assets/avatars/Caroline.png" },
-    { id: 4, name: "Clint", avatar: "/assets/avatars/Clint.png" },
-    { id: 5, name: "Demetrius", avatar: "/assets/avatars/Demetrius.png" },
-    { id: 6, name: "Elliott", avatar: "/assets/avatars/Elliott.png" },
-    { id: 7, name: "Emily", avatar: "/assets/avatars/Emily.png" },
-    { id: 8, name: "Evelyn", avatar: "/assets/avatars/Evelyn.png" },
-    { id: 9, name: "George", avatar: "/assets/avatars/George.png" },
-    { id: 10, name: "Gus", avatar: "/assets/avatars/Gus.png" },
-    { id: 11, name: "Haley", avatar: "/assets/avatars/Haley.png" },
-    { id: 12, name: "Harvey", avatar: "/assets/avatars/Harvey.png" },
-    { id: 13, name: "Jas", avatar: "/assets/avatars/Jas.png" },
-    { id: 14, name: "Jodi", avatar: "/assets/avatars/Jodi.png" },
-    { id: 15, name: "Kent", avatar: "/assets/avatars/Kent.png" },
-    { id: 17, name: "Leah", avatar: "/assets/avatars/Leah.png" },
-    { id: 18, name: "Lewis", avatar: "/assets/avatars/Lewis.png" },
-    { id: 19, name: "Linus", avatar: "/assets/avatars/Linus.png" },
-    { id: 20, name: "Marnie", avatar: "/assets/avatars/Marnie.png" },
-    { id: 21, name: "Maru", avatar: "/assets/avatars/Maru.png" },
-    { id: 22, name: "Pam", avatar: "/assets/avatars/Pam.png" },
-    { id: 23, name: "Penny", avatar: "/assets/avatars/Penny.png" },
-    { id: 24, name: "Pierre", avatar: "/assets/avatars/Pierre.png" },
-    { id: 25, name: "Robin", avatar: "/assets/avatars/Robin.png" },
-    { id: 26, name: "Sam", avatar: "/assets/avatars/Sam.png" },
-    { id: 27, name: "Sandy", avatar: "/assets/avatars/Sandy.png" },
-    { id: 28, name: "Sebastian", avatar: "/assets/avatars/Sebastian.png" },
-    { id: 29, name: "Shane", avatar: "/assets/avatars/Shane.png" },
-    { id: 30, name: "Vincent", avatar: "/assets/avatars/Vincent.png" },
-    { id: 31, name: "Willy", avatar: "/assets/avatars/Willy.png" },
-    { id: 32, name: "Wizard", avatar: "/assets/avatars/Wizard.png" }
+    { id: 1, name: "Abigail", avatar: "https://stardewvalleywiki.com/mediawiki/images/8/88/Abigail.png" },
+    { id: 2, name: "Alex", avatar: "https://stardewvalleywiki.com/mediawiki/images/0/04/Alex.png" },
+    { id: 3, name: "Caroline", avatar: "https://stardewvalleywiki.com/mediawiki/images/8/87/Caroline.png" },
+    { id: 4, name: "Clint", avatar: "https://stardewvalleywiki.com/mediawiki/images/3/31/Clint.png" },
+    { id: 5, name: "Demetrius", avatar: "https://stardewvalleywiki.com/mediawiki/images/f/f9/Demetrius.png" },
+    { id: 6, name: "Elliott", avatar: "https://stardewvalleywiki.com/mediawiki/images/b/bd/Elliott.png" },
+    { id: 7, name: "Emily", avatar: "https://stardewvalleywiki.com/mediawiki/images/2/28/Emily.png" },
+    { id: 8, name: "Evelyn", avatar: "https://stardewvalleywiki.com/mediawiki/images/8/8e/Evelyn.png" },
+    { id: 9, name: "George", avatar: "https://stardewvalleywiki.com/mediawiki/images/7/78/George.png" },
+    { id: 10, name: "Gus", avatar: "https://stardewvalleywiki.com/mediawiki/images/5/52/Gus.png" },
+    { id: 11, name: "Haley", avatar: "https://stardewvalleywiki.com/mediawiki/images/1/1b/Haley.png" },
+    { id: 12, name: "Harvey", avatar: "https://stardewvalleywiki.com/mediawiki/images/9/95/Harvey.png" },
+    { id: 13, name: "Jas", avatar: "https://stardewvalleywiki.com/mediawiki/images/5/55/Jas.png" },
+    { id: 14, name: "Jodi", avatar: "https://stardewvalleywiki.com/mediawiki/images/4/41/Jodi.png" },
+    { id: 15, name: "Kent", avatar: "https://stardewvalleywiki.com/mediawiki/images/9/99/Kent.png" },
+    { id: 17, name: "Leah", avatar: "https://stardewvalleywiki.com/mediawiki/images/e/e6/Leah.png" },
+    { id: 18, name: "Lewis", avatar: "https://stardewvalleywiki.com/mediawiki/images/2/2b/Lewis.png" },
+    { id: 19, name: "Linus", avatar: "https://stardewvalleywiki.com/mediawiki/images/3/31/Linus.png" },
+    { id: 20, name: "Marnie", avatar: "https://stardewvalleywiki.com/mediawiki/images/5/52/Marnie.png" },
+    { id: 21, name: "Maru", avatar: "https://stardewvalleywiki.com/mediawiki/images/f/f8/Maru.png" },
+    { id: 22, name: "Pam", avatar: "https://stardewvalleywiki.com/mediawiki/images/d/da/Pam.png" },
+    { id: 23, name: "Penny", avatar: "https://stardewvalleywiki.com/mediawiki/images/a/ab/Penny.png" },
+    { id: 24, name: "Pierre", avatar: "https://stardewvalleywiki.com/mediawiki/images/7/7e/Pierre.png" },
+    { id: 25, name: "Robin", avatar: "https://stardewvalleywiki.com/mediawiki/images/1/1b/Robin.png" },
+    { id: 26, name: "Sam", avatar: "https://stardewvalleywiki.com/mediawiki/images/9/94/Sam.png" },
+    { id: 27, name: "Sandy", avatar: "https://stardewvalleywiki.com/mediawiki/images/4/4e/Sandy.png" },
+    { id: 28, name: "Sebastian", avatar: "https://stardewvalleywiki.com/mediawiki/images/a/a8/Sebastian.png" },
+    { id: 29, name: "Shane", avatar: "https://stardewvalleywiki.com/mediawiki/images/8/8b/Shane.png" },
+    { id: 30, name: "Vincent", avatar: "https://stardewvalleywiki.com/mediawiki/images/f/f1/Vincent.png" },
+    { id: 31, name: "Willy", avatar: "https://stardewvalleywiki.com/mediawiki/images/8/82/Willy.png" },
+    { id: 32, name: "Wizard", avatar: "https://stardewvalleywiki.com/mediawiki/images/c/c7/Wizard.png" }
 ];
